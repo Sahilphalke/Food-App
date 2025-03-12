@@ -1,0 +1,34 @@
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateAnimation2 {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+.form-control:focus,
+.form-control:hover {
+    box-shadow: none !important;
+    border-color: #ced4da !important;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+}
+
+.container-fluid {
+    backdrop-filter: blur(5px);
+}
